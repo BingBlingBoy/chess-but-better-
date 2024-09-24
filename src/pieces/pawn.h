@@ -8,7 +8,7 @@ class Pawn: public Piece
 public:
     Pawn(PieceColor piece_color, PieceType piece_type);
 
-    // bool canMove() const override;
+    bool canMove() const override;
 };
 
 #endif // !PAWN_H

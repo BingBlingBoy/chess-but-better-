@@ -18,7 +18,7 @@ public:
     const std::string_view getPieceColor() const;
     const std::string_view getPieceType() const;
 
-    // virtual bool canMove() const = 0;
+    virtual bool canMove() const = 0;
     virtual ~Piece() = default;
 };
 

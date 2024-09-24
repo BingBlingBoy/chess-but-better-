@@ -5,5 +5,5 @@
 int main()
 {
     Pawn pawn {PieceColor::w, PieceType::P};
-    std::cout << pawn.getPieceType() << " " << pawn.getPieceColor() << '\n';
+    std::cout << pawn.getPieceType() << " " << pawn.getPieceColor() << " " <<  pawn.canMove() << '\n';
 }
